@@ -70,7 +70,7 @@ From figures 5 and 6, we can see a nearly 10x performance boost on the laptop CP
 Now to calculate how many processors would be needed to run object detection on the full video dataset we can run this calculation for each processor:
 
 $$
-\text{Total frames per minute} = \frac{\text{Number of Cores} \cdot (60 \cdot 1000)}{\text{Inference Time (ms)}} \cdot \text{Processor MSRP}
+\text{Total System Cost} = \frac{\text{Number of Cores} \cdot (60 \cdot 1000)}{\text{Inference Time (ms)}} \cdot \text{Processor MSRP}
 $$
 
 
